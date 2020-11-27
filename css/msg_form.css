@@ -1,0 +1,11 @@
+.msg_check {
+  color: #fff;
+}
+.msg_check_box {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  line-height: 2;
+}

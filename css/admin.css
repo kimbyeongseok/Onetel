@@ -1,0 +1,432 @@
+body {
+  min-width: 750px;
+}
+.community_section {
+  padding: 40px 0 40px 0;
+}
+
+.admin_box {
+  width: 100%;
+  height: auto;
+}
+.admin_box .tab_box {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.admin_box .tab_box button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  outline: none;
+  background: #222;
+  color: #fff;
+}
+.admin_box .tab_box button.on {
+  background: #fff;
+  color: #222;
+}
+.admin_box .panel_box {
+  width: 100%;
+  min-width: 700px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.admin_box .panel_box .panel {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  color: #fff;
+  background: #333;
+  box-sizing: border-box;
+}
+/* message list section */
+.admin_box .panel_box .msg_panel .msg_list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
+}
+.admin_box .panel_box .msg_panel .msg_list.title {
+  font-weight: bold;
+  background: #444;
+  line-height: 2;
+  border: none;
+  height: 50px;
+}
+.admin_box .panel_box .msg_panel .msg_list li {
+  float: left;
+  height: auto;
+  padding: 10px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.msg_list li:nth-child(1) {
+  width: 6%;
+}
+.msg_list li:nth-child(2) {
+  width: 15%;
+}
+.msg_list li:nth-child(3) {
+  width: 20%;
+}
+.msg_list li:nth-child(4) {
+  width: 40%;
+  height: auto;
+}
+.msg_list li:nth-child(5) {
+  width: 15%;
+}
+.msg_list li:nth-child(6) {
+  width: 4%;
+  cursor: pointer;
+}
+.msg_list li:nth-child(7) {
+  display: none;
+}
+/* search box, button style */
+.admin_box .panel_box form {
+  padding-top: 20px;
+}
+.admin_box .panel_box form select {
+  height: 30px;
+  border: none;
+  outline: none;
+  background: #aaa;
+}
+.admin_box .panel_box form input {
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  background: #aaa;
+}
+.admin_box .panel_box form input:focus {
+  background: #222;
+  color: #fff;
+}
+.admin_box .panel_box button {
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #aaa;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.admin_box .panel_box form button i {
+  color: #333;
+  transition: all 0.3s ease-out;
+}
+.admin_box .panel_box form button:hover {
+  background: #222;
+}
+.admin_box .panel_box form button:hover i {
+  color: #aaa;
+}
+/* member list section */
+.admin_box .panel_box .member_panel .member_list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
+}
+.admin_box .panel_box .member_panel .member_list.title {
+  font-weight: bold;
+  background: #444;
+  line-height: 2;
+  border: none;
+  height: 50px;
+}
+.admin_box .panel_box .member_panel .member_list li {
+  float: left;
+  height: auto;
+  padding: 10px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.member_list li:nth-child(1) {
+  width: 5%;
+}
+.member_list li:nth-child(2) {
+  width: 8.5%;
+}
+.member_list li:nth-child(3) {
+  width: 12.5%;
+}
+.member_list li:nth-child(4) {
+  width: 12%;
+}
+.member_list li:nth-child(5) {
+  width: 22%;
+}
+.member_list li:nth-child(6) {
+  width: 13%;
+}
+.member_list li:nth-child(7) {
+  width: 7.5%;
+}
+.member_list li:nth-child(8) {
+  width: 7.5%;
+}
+.member_list li:nth-child(9) {
+  width: 6%;
+  cursor: pointer;
+}
+.member_list li:nth-child(10) {
+  width: 6%;
+  cursor: pointer;
+}
+.admin_box .panel_box .member_list form {
+  padding-top: 0;
+}
+.admin_box .panel_box .member_list form li input {
+  width: 50%;
+  text-align: center;
+  height: auto;
+  padding: 5px 0;
+}
+/* end of member list section */
+/* project list section */
+.admin_box .panel_box .project_panel .project_list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
+}
+.admin_box .panel_box .project_panel .project_list.title {
+  font-weight: bold;
+  background: #444;
+  line-height: 2;
+  border: none;
+  height: 50px;
+}
+.admin_box .panel_box .project_panel .project_list li {
+  float: left;
+  height: auto;
+  padding: 10px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.project_list li:nth-child(1) {
+  width: 5%;
+}
+.project_list li:nth-child(2) {
+  width: 15%;
+}
+.project_list li:nth-child(3) {
+  width: 16%;
+}
+.project_list li:nth-child(4) {
+  width: 18%;
+}
+.project_list li:nth-child(5) {
+  width: 8%;
+}
+.project_list li:nth-child(6) {
+  width: 18%;
+}
+.project_list li:nth-child(7) {
+  width: 8%;
+}
+.project_list li:nth-child(8) {
+  width: 6%;
+  cursor: pointer;
+}
+.project_list li:nth-child(9) {
+  width: 6%;
+  cursor: pointer;
+}
+/* project upload style */
+.upload_right {
+  float: left;
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.image_box {
+  text-align: center;
+}
+.admin_box .panel_box form .image_box input[type="file"] {
+  position: absolute;
+  box-sizing: border-box;
+  width: 0px;
+  height: 0px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+}
+.admin_box .panel_box form .image_box label {
+  display: block;
+  width: 49%;
+  height: auto;
+  padding: 7.5px 0;
+  text-align: center;
+  box-sizing: border-box;
+  background: #999;
+  color: black;
+  float: right;
+  font-size: 12px;
+}
+.image_box .upload_name {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: auto;
+  background: #999;
+  border: 0;
+  outline: 0;
+  width: 49%;
+  height: auto;
+  float: left;
+}
+.wrap_box {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.wrap_box img {
+  width: 100%;
+  height: auto;
+}
+.project_list.upload li:nth-child(1) {
+  width: 20%;
+}
+.project_list.upload li:nth-child(2) {
+  width: 16%;
+}
+.project_list.upload li:nth-child(3) {
+  width: 16%;
+}
+.project_list.upload li:nth-child(4) {
+  width: 14%;
+}
+.project_list.upload li:nth-child(5) {
+  width: 12%;
+}
+.project_list.upload li:nth-child(6) {
+  width: 12%;
+}
+.project_list.upload li:nth-child(7) {
+  width: 8%;
+  cursor: pointer;
+}
+
+.admin_box .panel_box .project_list form {
+  padding-top: 0;
+}
+.admin_box .panel_box .project_list form li input[type="text"] {
+  width: 90%;
+  text-align: center;
+  height: auto;
+  padding: 5px 0;
+}
+.project_list li:nth-child(2) img {
+  width: 80%;
+}
+.admin_box .panel_box form li textarea {
+  resize: none;
+  height: auto;
+  border: none;
+  outline: none;
+  width: 90%;
+  background: #aaa;
+}
+.admin_box .panel_box form li textarea:focus {
+  background: #222;
+  color: #fff;
+}
+
+.admin_box .panel_box .project_panel button.search_btn {
+  width: 130px;
+  float: right;
+}
+.admin_box .panel_box .project_panel button.search_btn:hover {
+  color: #fff;
+}
+/* end of project section */
+/* board list section */
+.admin_box .panel_box .board_panel .board_list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
+}
+.admin_box .panel_box .board_panel .board_list.title {
+  font-weight: bold;
+  background: #444;
+  line-height: 2;
+  border: none;
+  height: 50px;
+}
+.admin_box .panel_box .board_panel .board_list li {
+  float: left;
+  height: auto;
+  padding: 10px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.board_list li:nth-child(1) {
+  width: 8%;
+}
+.board_list li:nth-child(2) {
+  width: 5%;
+}
+.board_list li:nth-child(3) {
+  width: 17%;
+}
+.board_list li:nth-child(4) {
+  width: 22%;
+}
+.board_list li:nth-child(5) {
+  width: 38%;
+}
+.board_list li:nth-child(6) {
+  width: 10%;
+}
+.board_list li:nth-child(7) {
+  display: none;
+  text-align: center;
+}
+.admin_box .panel_box .board_panel button.delete_btn {
+  width: 130px;
+  float: right;
+  margin-top: -30px;
+}
+.admin_box .panel_box .board_panel button.delete_btn:hover {
+  color: #fff;
+  background: #222;
+}
+/* Cutting long text style */
+.admin_box .panel_box .list li {
+  position: relative;
+}
+.admin_box .panel_box .list li b {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  cursor: pointer;
+}
+/*serch form style */
+.back_button {
+  width: 100px;
+  height: 30px;
+  background: #222;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 20px;
+}

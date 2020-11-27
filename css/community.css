@@ -1,0 +1,273 @@
+.community_section .sub_page_title {
+  width: 40%;
+}
+/* community section style */
+.community_section {
+  width: 100%;
+  height: auto;
+  background: #101010;
+  padding: 50px 0 80px 0;
+  box-sizing: border-box;
+}
+.board_table {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.board_list {
+  width: 100%;
+  height: auto;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.board_title {
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background: #555;
+}
+.board_list span {
+  box-sizing: border-box;
+  display: block;
+  color: #fff;
+  height: auto;
+  padding: 10px 0;
+  float: left;
+  text-align: center;
+}
+.board_list .num {
+  width: 15%;
+}
+.board_list .tit {
+  width: 40%;
+}
+.board_list .id {
+  width: 30%;
+}
+.board_list .hit {
+  width: 15%;
+}
+.board_content {
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #333;
+  margin: auto;
+}
+.board_content span {
+  box-sizing: border-box;
+}
+.board_content span.tit {
+  cursor: pointer;
+  color: #fff;
+}
+/* community button style */
+.community_board_btn {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.board_table a.community_btn {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  color: #fff;
+  float: right;
+  transition: all 0.3s ease-in-out;
+}
+.board_table a.community_btn:hover {
+  color: black;
+  background: #fff;
+}
+.community_board_btn .search_box {
+  float: left;
+  height: auto;
+  width: 50%;
+  margin-top: 5px;
+}
+.community_board_btn div {
+  float: right;
+  height: auto;
+  width: 50%;
+}
+.community_board_btn .search_box select {
+  float: left;
+  height: 30px;
+  width: 65px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  outline: none;
+  margin-right: 10px;
+  padding: 0 5px;
+  background: none;
+  color: #fff;
+}
+.community_board_btn .search_box input {
+  float: left;
+  height: 30px;
+  width: 140px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  outline: none;
+  margin-right: 10px;
+  padding: 0 5px;
+  background: none;
+  color: #fff;
+}
+.community_board_btn .search_box button {
+  float: left;
+  width: 30px;
+  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  outline: none;
+  background: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.community_board_btn .search_box button:hover {
+  color: black;
+  background: #fff;
+}
+/* numbering style */
+.board_table .numbering {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+.board_table .numbering span {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  color: #aaa;
+  transition: all 0.3s ease-in-out;
+}
+.board_table .numbering span:hover,
+.board_table .numbering span.active {
+  color: #fff;
+}
+/* write form page style */
+.write_box {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #222;
+}
+.write_box form p {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.write_box form p label {
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+.write_box form p input {
+  width: 70%;
+  height: 30px;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  float: right;
+  background: #aaa;
+}
+.write_box form p textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  resize: none;
+  box-sizing: border-box;
+  background: #aaa;
+}
+.write_btn {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.write_btn a.community_btn {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.community_section.padding_fit {
+  padding: 50px 0 0 0;
+}
+/* board_view style */
+.tit b {
+  cursor: pointer;
+  font-size: 12px;
+  color: #aaa;
+}
+/* write form page style */
+.write_box {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #222;
+}
+.write_box form p {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.write_box form p label {
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+.write_box form p input {
+  width: 70%;
+  height: 30px;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  float: right;
+  background: #aaa;
+}
+.write_box form p textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  resize: none;
+  box-sizing: border-box;
+  background: #aaa;
+}
+
+/* reply style */
+#anwser {
+  display: none;
+  width: 100%;
+  padding: 0 20px 10px 20px;
+  text-align: right;
+  color: #aaa;
+}

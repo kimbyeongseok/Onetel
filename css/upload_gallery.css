@@ -1,0 +1,206 @@
+.upload_section {
+  width: 100%;
+  height: auto;
+  background: #101010;
+  padding: 50px 0 80px 0;
+}
+.form_data {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px 20px 0 20px;
+}
+.upload_title {
+  width: 100%;
+  height: auto;
+  background: #444;
+}
+.upload_title label {
+  width: 20%;
+  height: 35px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  color: #fff;
+  background: none;
+  display: block;
+  line-height: 2.2;
+}
+.upload_title input {
+  width: 80%;
+  box-sizing: border-box;
+  height: 35px;
+  float: right;
+  border: none;
+  background: #999;
+  padding: 0 20px;
+  outline: 0;
+}
+.upload_title input:focus {
+  background: #ccc;
+}
+.upload_category {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  background: #444;
+}
+.upload_category em {
+  width: 20%;
+  height: 35px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  color: #fff;
+  background: none;
+  display: block;
+  line-height: 2.2;
+  font-style: normal;
+}
+.upload_category select {
+  width: 80%;
+  box-sizing: border-box;
+  height: 35px;
+  float: right;
+  background: #999;
+  padding: 0 20px;
+  outline: 0;
+  border: none;
+}
+.upload_category select:focus {
+  background: #ccc;
+}
+.upload_category select option {
+  color: #fff;
+}
+/* .thumb_img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  background: #444;
+}
+.thumb_img label {
+  width: 20%;
+  height: 35px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  color: #fff;
+  background: none;
+  display: block;
+  line-height: 2.2;
+  font-style: normal;
+}
+.thumb_img .upload_name {
+  width: 40%;
+  box-sizing: border-box;
+  height: 35px;
+  background: #999;
+  padding: 0 20px;
+  outline: 0;
+  border: none;
+}
+.thumb_img .upload_hidden {
+  width: 40%;
+  box-sizing: border-box;
+  height: 35px;
+  float: right;
+  background: #999;
+  padding: 0 20px;
+  outline: 0;
+  border: none;
+} */
+.upload_left {
+  float: left;
+  width: 50%;
+  /* background: #444; */
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 0;
+}
+.upload_right {
+  float: right;
+  width: 50%;
+  /* background: #333; */
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 0px 10px 10px;
+}
+.image_box {
+  text-align: center;
+}
+.image_box input[type="file"] {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+.image_box label {
+  display: block;
+  width: 49%;
+  height: 40px;
+  padding: 10px 0;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  float: right;
+  color: #eee;
+  transition: all 0.4s ease-in-out;
+}
+.image_box label:hover {
+  color: black;
+  background: #fff;
+}
+.image_box .upload_name {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: auto;
+  background: #999;
+  border: 0;
+  outline: 0;
+  width: 49%;
+  height: 40px;
+  float: left;
+}
+.image_box .upload_name:focus {
+  background: #eee;
+}
+.wrap_box {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.wrap_box img {
+  width: 100%;
+  height: auto;
+}
+.upload_btn {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.upload_btn button {
+  width: 30%;
+  color: #fff;
+  background: #555;
+  padding: 15px 15px;
+  outline: 0;
+  border: 0;
+  transition: all 0.4s ease-in-out;
+}
+.upload_btn button:hover {
+  color: black;
+  background: #fff;
+}

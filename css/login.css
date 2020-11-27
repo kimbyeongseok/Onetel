@@ -1,0 +1,63 @@
+.login_section {
+  width: 100%;
+  height: auto;
+  background: #101010;
+  padding: 50px 0 80px 0;
+}
+/* login icon style */
+.login_icon {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  margin: 20px auto 0;
+  text-align: center;
+  padding-top: 20px;
+}
+.login_icon .fa {
+  font-size: 70px;
+  color: #fff;
+}
+
+/* login box style */
+.login_box {
+  width: 35%;
+  margin: auto;
+  height: auto;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.login_box p input {
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.login_box .login_btns {
+  width: 100%;
+  height: auto;
+}
+.login_box .login_btns a {
+  width: 49%;
+  display: inline-block;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+.login_box .login_btns a:nth-child(1) {
+  background: #c14000;
+  float: left;
+}
+.login_box .login_btns a:nth-child(2) {
+  background: #009987;
+  float: right;
+}
+.img_slogan h2,
+.img_slogan p {
+  text-shadow: 2px 2px 6px #666;
+}

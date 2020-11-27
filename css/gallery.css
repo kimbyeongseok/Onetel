@@ -1,0 +1,107 @@
+.gallery_section {
+  width: 100%;
+  height: auto;
+  background: #101010;
+  padding: 50px 0 80px 0;
+}
+.gallery_box {
+  width: 100%;
+  height: auto;
+}
+.grid-sizer {
+  width: 20%;
+}
+.gallery_item {
+  box-sizing: border-box;
+  padding: 5px;
+}
+.filtering {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.filtering button {
+  display: inline-block;
+  padding: 20px;
+  color: #aaa;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+}
+.filtering button:hover,
+.filtering button.on {
+  color: #fff;
+}
+.on {
+  color: #fff;
+}
+.gallery_item span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0, 0);
+  text-align: center;
+  transition: all 0.3s;
+}
+.gallery_item span a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #fff;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.gallery_item span:hover {
+  background: rgb(0, 0, 0, 0.5);
+}
+.gallery_item span:hover a {
+  opacity: 1;
+}
+.gallery_btns {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.gallery_btns button {
+  width: 20%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  padding: 15px 0;
+  background: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.gallery_btns button:nth-child(1) {
+  margin-right: 20px;
+}
+.gallery_btns button:hover {
+  color: black;
+  background: #fff;
+}
+.gallery_btns button a {
+  color: #fff;
+}
+.gallery_btns button:hover a {
+  color: black;
+}
